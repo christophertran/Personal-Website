@@ -1,0 +1,35 @@
+body {
+    padding-top: 50px;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p, span {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.links .link-icon a{
+    color: black;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+
+.links .link-icon {
+    padding: 0px 10px 25px 10px;
+    display: inline-block;
+}
+
+.links {
+    text-align: center;
+}
+
+.container .jumbotron {
+    background-color: white;
+}
