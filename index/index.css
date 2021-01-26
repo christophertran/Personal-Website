@@ -1,35 +1,71 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
 body {
-    padding-top: 50px;
-    background-color: white;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-h1 {
-    font-family: 'Libre Franklin', sans-serif;
+.cover-container {
+  max-width: 42em;
 }
 
-p, span {
-    font-family: 'Libre Baskerville', serif;
+
+/*
+ * Header
+ */
+
+.nav-link {
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
 }
 
-p {
-    font-size: 1.3em;
+.nav-link:hover,
+.nav-link:focus {
+	color: rgba(255, 255, 255, .5);
+  border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.links .link-icon a{
-    color: black;
-    font-size: 0.95em;
-    text-decoration: none;
+.nav-link + .nav-link {
+  margin-left: 1rem;
 }
 
-.links .link-icon {
-    padding: 0px 10px 25px 10px;
-    display: inline-block;
+.active {
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
-.links {
-    text-align: center;
+
+/* 
+ * Footer
+ */
+
+.footer-links .link-icon a{
+	color: white;
+	text-decoration: none;
+	font-size: 0.95em;
+	font-weight: 700;
 }
 
-.container .jumbotron {
-    background-color: white;
+.footer-links .link-icon {
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
 }
