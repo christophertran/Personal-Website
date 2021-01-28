@@ -4,6 +4,7 @@
 
 body {
   background-image: url('../img/hero-bg.png');
+  color: white;
 }
 
 /*
@@ -23,7 +24,7 @@ body {
 .nav-pills .nav-link {
   background-color: none;
   color: white;
-  margin: 0 5px 0 5px;
+  margin: 10px 5px 0 5px;
 }
 
 .nav-pills .nav-link:hover {
@@ -37,7 +38,7 @@ body {
 
 .footer-links .footer-link {
   /* Top Right Bottom Left */
-  padding: 0 1% 0 1%;
+  padding: 5% 1% 5% 1%;
 }
 
 .footer-links .footer-link a {
@@ -54,7 +55,7 @@ body {
  * index.html - Home Section
  */
 
-.landing-page-box {
+.home-section {
   color: white;
   padding: 15% 0 15% 0;
 }
@@ -68,4 +69,57 @@ body {
 .landing-page-about-btn:hover {
   background-color: lightblue;
   color: black;
+}
+
+/*
+ * about.html - About Section
+ */
+
+.about-section {
+  padding: 5% 0 5% 0;
+}
+
+.about-avatar {
+  max-width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.about-list {
+  padding-top: 10%;
+}
+
+.about-list .about-fact {
+  padding: 5px 0;
+}
+
+.about-list label {
+  color: white;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: white;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+
+.about-list p {
+  margin: 0;
+  font-size: 15px;
 }
