@@ -3,7 +3,7 @@
  */
 
 body {
-  background-color: white;
+  background-image: url('../img/hero-bg.png');
 }
 
 /*
@@ -11,12 +11,23 @@ body {
  */
 
 .nav-pills .nav-link.active {
-  background-color: lightblue;
+  background-color: lightskyblue;
+  color: black;
+}
+
+.nav-pills .nav-link.active:hover {
+  background-color: lightskyblue;
   color: black;
 }
 
 .nav-pills .nav-link {
-  background-color: white;
+  background-color: none;
+  color: white;
+  margin: 0 5px 0 5px;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: lightblue;
   color: black;
 }
 
@@ -26,22 +37,35 @@ body {
 
 .footer-links .footer-link {
   /* Top Right Bottom Left */
-  padding: 0 10px 0 10px;
+  padding: 0 1% 0 1%;
 }
 
 .footer-links .footer-link a {
-  background-color: white;
-  color: black;
+  color: white;
   text-decoration: none;
-  text-align: center;
+}
+
+.footer-links .footer-link a:hover {
+  background-color: lightblue;
+  color: black;
 }
 
 /*
  * index.html - Home Section
  */
 
+.landing-page-box {
+  color: white;
+  padding: 15% 0 15% 0;
+}
+
 .landing-page-about-btn {
-  background-color: lightblue;
+  background-color: lightskyblue;
   border: none;
+  color: black;
+}
+
+.landing-page-about-btn:hover {
+  background-color: lightblue;
   color: black;
 }
