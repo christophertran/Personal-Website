@@ -47,8 +47,7 @@ body {
 }
 
 .footer-links .footer-link a:hover {
-  background-color: lightblue;
-  color: black;
+  color: lightblue;
 }
 
 /*
@@ -80,8 +79,10 @@ body {
 }
 
 .about-avatar {
-  max-width: 50%;
+  border: 5px solid lightskyblue;
+  border-radius: .25rem;
   display: block;
+  max-width: 50%;
   margin: auto;
 }
 
@@ -123,3 +124,7 @@ body {
   margin: 0;
   font-size: 15px;
 }
+
+/*
+ * qualifications.html - Qualifications Section
+ */
