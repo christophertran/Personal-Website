@@ -80,6 +80,8 @@ body {
 
 .about-text {
   background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
 }
 
 .about-avatar {
@@ -96,6 +98,8 @@ body {
 
 .about-list .about-fact {
   background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
   padding: 5px 0;
 }
 
@@ -147,6 +151,23 @@ body {
 /*
  * qualifications.html - Qualifications Section
  */
+
+.qualifications-section {
+  padding: 5% 0 5% 0;
+}
+
+.technical-aoi {
+  padding: 5% 0 0 0;
+}
+
+.resume-display {
+  padding: 5% 0 0 0;
+}
+
+.resume-display embed {
+  display: block;
+  margin: auto;
+}
 
 /* 
  * secret.html - Secret Section
