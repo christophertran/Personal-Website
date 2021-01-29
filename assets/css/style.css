@@ -148,6 +148,17 @@ body {
   margin: auto;
 }
 
+.portfolio-page-more-btn {
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+}
+
+.portfolio-page-more-btn:hover {
+  background-color: lightblue;
+  color: black;
+}
+
 /*
  * qualifications.html - Qualifications Section
  */
@@ -181,6 +192,17 @@ body {
   background-color: rgba(0, 0, 0, 0.60);
   border: 5px solid rgba(0, 0, 0, 0);
   border-radius: 1rem;
+}
+
+.service-page-more-btn {
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+}
+
+.service-page-more-btn:hover {
+  background-color: lightblue;
+  color: black;
 }
 
 /* 
