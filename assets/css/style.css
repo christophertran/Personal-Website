@@ -91,11 +91,11 @@ body {
 }
 
 .about-list {
-  background-color: black;
   padding-top: 10%;
 }
 
 .about-list .about-fact {
+  background-color: black;
   padding: 5px 0;
 }
 
