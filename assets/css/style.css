@@ -167,8 +167,26 @@ body {
   padding: 5% 0 5% 0;
 }
 
+.technical-skills {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
+  margin-right: 2%;
+}
+
+.professional-skills {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
+  margin-left: 2%;
+}
+
 .technical-aoi {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 1rem;
   padding: 5% 0 0 0;
+  margin-top: 4%;
 }
 
 .resume-display {
