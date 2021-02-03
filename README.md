@@ -2,6 +2,6 @@
 
 This is a personal website created for my CSCE 315 course.
 
-# Link
+## Link
 
 http://people.tamu.edu/~tchristopher457/
